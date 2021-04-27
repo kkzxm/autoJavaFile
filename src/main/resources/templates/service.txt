@@ -1,0 +1,16 @@
+[# th:replace="public/package.txt" /]
+
+[# th:replace="public/importEntity.txt" /]
+
+import com.lingDream.root.mapper.MyMapper;
+import com.lingDream.root.service.MyService;
+import org.springframework.stereotype.Service;
+
+[# th:replace="public/DocComment.txt" /]
+
+@Service
+public class [[${table.className}]] extends MyService<[[${table.oldClassName}]]>{
+    public [[${table.className}]](MyMapper<[[${table.oldClassName}]]> baseMapper) {
+        super(baseMapper);
+    }
+}

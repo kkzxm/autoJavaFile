@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="com.lingDream.autoJavaFile.entity.RootSetting">
+        <constructor-arg name="project_path" value="E:\autoFile"/>
+        <constructor-arg name="project_name" value="tsl"/>
+        <constructor-arg name="rootPackage" value="com.lingDream.llfEnglish"/>
+        <constructor-arg name="author" value="酷酷宅小明"/>
+    </bean>
+</beans>

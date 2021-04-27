@@ -1,0 +1,15 @@
+[# th:replace="public/package.txt" /]
+
+import lombok.Data;
+import lombok.experimental.Accessors;
+import java.util.Date;
+
+[# th:replace="public/DocComment.txt" /]
+
+@Data
+@Accessors(chain = true)
+public class [[${table.className}]] {
+    [# th:each="pro:${table.propertyList}"]
+    private [[${pro.propertyType}]] [[${pro.propertyName}]];
+    [/]
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autoJavaFile>
+    <root-setting>
+        <project-type> a</project-type>
+        <project-path>E:\llfScore</project-path>
+        <package>com.hrxy.dev</package>
+        <ftlAddress>E:\LingDreamWorkspace\autoJavaFile\src\main\resources\templates</ftlAddress>
+        <author>LI_Lingfei</author>
+    </root-setting>
+    <property-setting>
+        <setting-nameIngRule>[this]</setting-nameIngRule>
+    </property-setting>
+    <settings>
+        <setting id="entity">
+            <setting-package>entity</setting-package>
+            <setting-nameIngRule>[this]</setting-nameIngRule>
+            <setting-ftlAddress>entity.ftl</setting-ftlAddress>
+        </setting>
+        <setting id="dao">
+            <setting-package>dao</setting-package>
+            <setting-nameIngRule>[this]Dao</setting-nameIngRule>
+            <setting-ftlAddress>dao.ftl</setting-ftlAddress>
+        </setting>
+        <setting id="daoMapper">
+            <setting-package>dao</setting-package>
+            <setting-nameIngRule>[this]Dao.xml</setting-nameIngRule>
+            <setting-ftlAddress>daoMapper.ftl</setting-ftlAddress>
+        </setting>
+        <setting id="serviceImpl">
+            <setting-package>service.impl</setting-package>
+            <setting-nameIngRule>[this]ServiceImpl</setting-nameIngRule>
+            <setting-ftlAddress>serviceImpl.ftl</setting-ftlAddress>
+        </setting>
+        <setting id="controller">
+            <setting-package>controller</setting-package>
+            <setting-nameIngRule>[this]Controller</setting-nameIngRule>
+            <setting-ftlAddress>controller.ftl</setting-ftlAddress>
+        </setting>
+    </settings>
+</autoJavaFile>

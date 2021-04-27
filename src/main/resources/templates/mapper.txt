@@ -1,0 +1,13 @@
+[# th:replace="public/package.txt" /]
+
+[# th:replace="public/importEntity.txt" /]
+
+import com.lingDream.root.mapper.MyMapper;
+import org.apache.ibatis.annotations.Mapper;
+
+[# th:replace="public/DocComment.txt" /]
+
+@Mapper
+public interface [[${table.className}]] extends MyMapper<[[${table.oldClassName}]]> {
+
+}
